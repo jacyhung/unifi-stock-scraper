@@ -13,8 +13,9 @@ This is a simple script that scrapes the stock of a Unifi store and sends a Disc
    1. ```python
       pip install -r requirements.txt
       ```
-3. Run the script
+3. Modify the main.py file to include the webhook URL and the product url
+4. Run the script
    1. ```python
       python3 main.py
       ```
-4. Sit back and wait. The script will run every minute and send a notification if the stock is available.
+5. Sit back and wait. The script will run every minute and send a notification if the stock is available.
