@@ -15,7 +15,7 @@ def notify():
 def scrape():
     page = requests.get(TARGET_URL)
     soup = BeautifulSoup(page.content, "html.parser")
-    time.sleep(5)
+    time.sleep(60)
     for div in soup.find(id="productDescriptionAndWizard").find_all("div"):
         if any("in stock" in span.text.lower() for span in div.find_all("span")):
             print("Found availability.")
