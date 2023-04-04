@@ -1,5 +1,5 @@
 # Unifi Stock Scraper
-This is a simple script that scrapes the stock of a Unifi store and sends a Discord notification via a webohok URL to the user if the stock is available.
+This is a simple script that scrapes the stock of a Unifi store and sends a Discord notification via a webook URL to the user if the stock is available.
 
 ## Requirements
 - Python 3.6+
